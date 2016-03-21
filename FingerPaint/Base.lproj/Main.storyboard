@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MDZ-C1-oQ0" customClass="Pallet">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BSw-HK-vR0">
+                                        <rect key="frame" x="83" y="415" width="28" height="185"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="28" id="81p-KM-qJi"/>
+                                            <constraint firstAttribute="height" constant="185" id="NRa-0A-Org"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="Black.png"/>
+                                        <connections>
+                                            <action selector="pencilPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fqA-wo-3My"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X2R-KG-mKb">
+                                        <rect key="frame" x="119" y="415" width="28" height="185"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="28" id="CK2-xz-aae"/>
+                                            <constraint firstAttribute="height" constant="185" id="CQ0-KS-cEV"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="Blue.png"/>
+                                        <connections>
+                                            <action selector="pencilPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NkZ-kD-s6J"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYN-WN-7iq">
+                                        <rect key="frame" x="155" y="415" width="28" height="185"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="28" id="iKC-og-7os"/>
+                                            <constraint firstAttribute="height" constant="185" id="mV4-1a-520"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="Red.png"/>
+                                        <connections>
+                                            <action selector="pencilPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hfJ-zh-tGl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eba-oe-uO8">
+                                        <rect key="frame" x="191" y="415" width="28" height="185"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="185" id="MDT-BN-G72"/>
+                                            <constraint firstAttribute="width" constant="28" id="Our-Ns-wVj"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="LightGreen.png"/>
+                                        <connections>
+                                            <action selector="pencilPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4U1-bp-y7D"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ca6-rg-tI5">
+                                        <rect key="frame" x="227" y="415" width="28" height="185"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="185" id="FX8-Xz-ohm"/>
+                                            <constraint firstAttribute="width" constant="28" id="oJC-iS-tCb"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="Yellow.png"/>
+                                        <connections>
+                                            <action selector="pencilPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a0H-KD-edQ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="BSw-HK-vR0" secondAttribute="bottom" id="OzK-yI-6Mh"/>
+                                    <constraint firstAttribute="bottom" secondItem="X2R-KG-mKb" secondAttribute="bottom" id="dqg-uX-8Qc"/>
+                                    <constraint firstAttribute="bottom" secondItem="eba-oe-uO8" secondAttribute="bottom" id="m9W-VE-5EA"/>
+                                    <constraint firstAttribute="bottom" secondItem="wYN-WN-7iq" secondAttribute="bottom" id="xzY-th-Pvb"/>
+                                    <constraint firstAttribute="bottom" secondItem="ca6-rg-tI5" secondAttribute="bottom" id="ykc-XM-rCW"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="MDZ-C1-oQ0" secondAttribute="trailing" id="Aj1-nY-Uap"/>
+                            <constraint firstItem="MDZ-C1-oQ0" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="NIr-GE-4Wu"/>
+                            <constraint firstItem="MDZ-C1-oQ0" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="djf-gX-loC"/>
+                            <constraint firstItem="MDZ-C1-oQ0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="oPs-RX-BSy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pallet" destination="MDZ-C1-oQ0" id="T7X-pd-Lhq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="305"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Black.png" width="53" height="332"/>
+        <image name="Blue.png" width="53" height="332"/>
+        <image name="LightGreen.png" width="53" height="332"/>
+        <image name="Red.png" width="53" height="332"/>
+        <image name="Yellow.png" width="53" height="332"/>
+    </resources>
+</document>
